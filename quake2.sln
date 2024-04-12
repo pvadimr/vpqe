@@ -1,20 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ctf", "ctf\ctf.vcproj", "{9063AFB6-01CA-4C62-B2A2-88A9B643329C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ctf", "ctf\ctf.vcxproj", "{9063AFB6-01CA-4C62-B2A2-88A9B643329C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcproj", "{28D5C3AC-C8E8-44D0-84FE-443C5CE4AE3B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcxproj", "{28D5C3AC-C8E8-44D0-84FE-443C5CE4AE3B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quake2", "quake2.vcproj", "{FA26018C-24F1-4C30-B571-6D4FC2A0E51D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9063AFB6-01CA-4C62-B2A2-88A9B643329C} = {9063AFB6-01CA-4C62-B2A2-88A9B643329C}
-		{28D5C3AC-C8E8-44D0-84FE-443C5CE4AE3B} = {28D5C3AC-C8E8-44D0-84FE-443C5CE4AE3B}
-		{DEDA2537-D504-42ED-BFBB-1101834DB95A} = {DEDA2537-D504-42ED-BFBB-1101834DB95A}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quake2", "quake2.vcxproj", "{FA26018C-24F1-4C30-B571-6D4FC2A0E51D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_gl", "ref_gl\ref_gl.vcproj", "{DEDA2537-D504-42ED-BFBB-1101834DB95A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_gl", "ref_gl\ref_gl.vcxproj", "{DEDA2537-D504-42ED-BFBB-1101834DB95A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_soft", "ref_soft\ref_soft.vcproj", "{E918058B-7D9E-4528-9B87-5087590FDB62}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ref_soft", "ref_soft\ref_soft.vcxproj", "{E918058B-7D9E-4528-9B87-5087590FDB62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,5 +64,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65C72BF3-B995-4C23-ACFB-4D9C3DB3C2F5}
 	EndGlobalSection
 EndGlobal
